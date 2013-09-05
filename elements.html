@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://lesselements.com/tests -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<link href="assets/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="assets/all.css">
+    <link rel="alternate" type="application/atom+xml" title="app - feed" href="http://lesselements.com/index.xml">
+     
+    <title>LESS Elements: a collection of useful LESS mixins</title>
+		<script type="text/javascript" async="" src="assets/ga.js"></script><script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-4565969-8']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+  </head>
+  <body>
+  	    	
+            <div id="intro">
+  <h1>LESS Elements Tests</h1>
+</div>
+
+<div id="tests">
+
+	<div class="row">
+	  <div class="col">
+	    .gradient(#6CB1EE, #4F85B2, #BCE6FF);
+	  </div>
+	  <div class="col">
+	    <div id="test_gradient"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .bw-gradient(#EEE, 150, 255);
+	  </div>
+	  <div class="col">
+	    <div id="test_bw_gradient"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .bordered(#DDD, #BBB, #555, #BBB);
+	  </div>
+	  <div class="col">
+	    <div id="test_bordered"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .drop-shadow(2px, 5px, 10px, 0.5);
+	  </div>
+	  <div class="col">
+	    <div id="test_drop_shadow"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .rounded(10px);
+	  </div>
+	  <div class="col">
+	    <div id="test_rounded"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .border-radius(10px, 10px, 0, 0);
+	  </div>
+	  <div class="col">
+	    <div id="test_border_radius"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .opacity(0.4);
+	  </div>
+	  <div class="col">
+	    <div id="test_opacity"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .transition-duration(0.5s);<br>
+	    (hover to view)
+	  </div>
+	  <div class="col">
+	    <div id="test_transition_duration"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .rotation(20deg);
+	  </div>
+	  <div class="col">
+	    <div id="test_rotation"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .scale(0.5);
+	  </div>
+	  <div class="col">
+	    <div id="test_scale"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .transition(1s, linear);<br>
+	    (hover to view)
+	  </div>
+	  <div class="col">
+	    <div id="test_transition"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .inner-shadow(2px, 5px, 10px, 0.5);
+	  </div>
+	  <div class="col">
+	    <div id="test_inner_shadow"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .box-shadow(2px 5px 10px green);
+	  </div>
+	  <div class="col">
+	    <div id="test_box_shadow"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .columns(40px, 3, 20px, #EEE, solid, 1px);
+	  </div>
+	  <div class="col">
+	    <div id="test_columns">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .translate(100px, 0);
+	  </div>
+	  <div class="col">
+	    <div id="test_translate"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .box-sizing(border-box);
+	   </div>
+	  <div class="col">
+	    <div id="test_box_sizing"></div>
+	  </div>
+	</div>
+
+	<div class="row">
+	  <div class="col">
+	    .user-select(none);
+	   </div>
+	  <div class="col">
+	    <div id="test_user_select">Try to select this text</div>
+	  </div>
+	</div>
+
+
+</div>
+
+
+<div id="footer">
+	Copyright © 2011 <a href="http://fadeyev.net/">Dmitry Fadeyev</a><br>
+	Special thanks to <a href="http://cloudhead.io/">Alexis Sellier</a> for creating <a href="http://lesscss.org/">LESS</a>
+</div>
+  
+
+
+</body></html>
